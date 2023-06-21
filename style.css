@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(count1.jpg);
+    max-width: 100%;
+    background-size: cover
+
+}
+.button:hover{
+    background-color: black;
+    
+}
+
+h1{
+    text-align: center;
+    color: gray;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+#count{
+    text-align: center;
+    background: grey;
+    color: white;
+    max-width: 50%;
+    margin: auto;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    margin: auto; 
+    /* margin-right: auto;  */
+    gap: 1rem;
+    max-width:  10%;
+    justify-content: center;
+    align-items: center; 
+    border: none;
+    border-radius: 5px;  
+    margin-top: 1rem;
+ 
+}
+
+#saveBtn{
+    margin-top: 3.5rem;
+    background-color: green;
+    /* max-width: 10%; */
+    border: none;
+    border-radius: 2px;
+    width: 100%;
+    color: whitesmoke;
+}
+
